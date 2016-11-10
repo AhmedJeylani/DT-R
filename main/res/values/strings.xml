@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Digital Receipt</string>
+    <string name="new_pass">Enter New Password</string>
+    <string name="new_pass_copy">Re-Enter New Password</string>
+    <string name="submit">Submit</string>
+    <string name="details">Details</string>
+    <string name="enter_username">Enter username</string>
+    <string name="sec_question">What City were you born in?</string>
+    <string name="sec_ans">Enter Answer</string>
+    <string name="instruct_details">Enter Details</string>
+    <string name="user_password">Your Password</string>
+    <string name="login_button">Login</string>
+    <string name="forgotten_button">Forgotten Details</string>
+    <string name="user_username">Your Username</string>
+    <string name="security">Security Question:</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="un_pw_error">Password/Username invalid!</string>
+    <string name="un_req_title">Username Requirements:</string>
+    <string name="pw_req_title">Password Requirements:</string>
+    <string name="un_req">min length of 4 characters and max of 16 characters, containing at least one letter.</string>
+    <string name="pw_req">min length of 8 characters and max of 24 characters, containing at least one UPPER case, one lower case and one number</string>
+    <string name="register_here"><u>Register Here</u></string>
+    <string name="user_secAns">Enter Your Security Answer</string>
+    <string name="receipt_title">Receipt</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="change_password">Change Password</string>
+    <string name="edit_view">Edit View</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context="com.app.jj.digitalreceipt.ForgottenDetails">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/backButton_id"
+        android:background="@null"/>
+
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:text="@string/enter_username"
+        android:textSize="20sp"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:inputType="textCapWords"
+        android:hint="@string/user_username"
+        android:layout_marginBottom="20dp"
+        android:textSize="15sp"
+        android:textAlignment="textStart"
+        android:id="@+id/username_id"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:text="@string/sec_question"
+        android:textSize="20sp"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:inputType="textCapWords"
+        android:hint="@string/user_secAns"
+        android:textSize="15sp"
+        android:textAlignment="textStart"
+        android:id="@+id/secAns_id"
+        android:layout_marginBottom="20dp"
+
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:hint="@string/new_pass"
+        android:textSize="15sp"
+        android:textAlignment="textStart"
+        android:id="@+id/newPass_id" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:hint="@string/new_pass_copy"
+        android:textSize="15sp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="textStart"
+        android:id="@+id/newPassCopy_id"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="@string/submit"
+        android:id="@+id/submit_id"
+        android:layout_marginTop="20dp"
+        />
+
+
+</LinearLayout>
